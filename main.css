@@ -27,7 +27,7 @@ body {
 }
 .arrow-size {
   height: 120px;
-  margin-top: 22%;
+  margin-top: 20%;
 }
 .carousel-control-prev-icon {
   background-image: url(https://github.com/anageek/naufrago/blob/master/previous-arrow.png?raw=true) !important;
@@ -120,13 +120,20 @@ body {
   }
 }
 
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 900px) {
+  .modal-content {
+    width: 100%;
+  }
+  .arrow-size {
+    height: 120px;
+    margin-top: 35%;
+  }
+}
+
 .profile_image {
   width: 200px !important;
   height: 200px;
-}
-.arrow-size {
-  height: 120px;
-  margin-top: 25%;
 }
 .card {
   border-right: 0px !important;
